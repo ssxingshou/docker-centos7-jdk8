@@ -1,2 +1,3 @@
-# docker-centos7-jdk8
-docker-centos7-jdk8
+# docker-jdk8
+
+jdk8 centos7集成
