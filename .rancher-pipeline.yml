@@ -6,6 +6,6 @@ stages:
       buildContext: .
       tag: jdk8-centos-ssxs:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
-      registry: registry.cn-shenzhen.aliyuncs.com
+      registry: registry.cn-shenzhen.aliyuncs.com/ssxs-docker/ssxs-repo
 timeout: 60
 notification: {}
