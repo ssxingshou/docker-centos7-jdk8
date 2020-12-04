@@ -1,4 +1,4 @@
-FROM registry-vpc.cn-shenzhen.aliyuncs.com/ssxs/ssxs-centos7:1
+FROM registry.cn-shenzhen.aliyuncs.com/ssxs-docker/ssxs-repo/ssxs-centos7:1
 
 MAINTAINER Base Image Jdk8 <haixiang.dai@ssxingshou.com>
 
