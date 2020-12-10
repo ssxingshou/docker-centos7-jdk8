@@ -6,8 +6,10 @@ RUN yum update -y
 
 RUN cd /tmp
 
+RUN wget http://file.tongbor.com/jdk-8u271-linux-x64.rpm
+
 #这里还是要从外网或者服务器的某个地址去下载，太大了
-COPY jdk-8u271-linux-x64.rpm /tmp/jdk-8u271-linux-x64.rpm
+#COPY jdk-8u271-linux-x64.rpm /tmp/jdk-8u271-linux-x64.rpm
 
 RUN rpm -ivh /tmp/jdk-8u271-linux-x64.rpm
 RUN rm -f /tmp/jdk-8u271-linux-x64.rpm
